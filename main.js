@@ -47,7 +47,7 @@ function draw() {
         circle(leftWristX, leftWristY, 20);
         inNumberleftwristY = Number(leftWristY);
         remove_decimal = floor(inNumberleftwristY);
-        volume = remove_decimal / 500;
+        volume = remove_decimal/500;
         document.getElementById("volume").innerHTML = "volume = " + volume;
         song.setVolume(volume);
     }
